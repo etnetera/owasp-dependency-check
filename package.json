@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://github.com/etnetera/owasp-dependency-check"
   },
+  "bugs": {
+    "url": "https://github.com/etnetera/owasp-dependency-check/issues"
+  },
   "bin": {
     "owasp-dependency-check": "index.js"
   },
