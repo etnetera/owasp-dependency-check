@@ -4,7 +4,7 @@ const { program } = require('commander');
 const { run } = require('./lib/dependency-check');
 
 program
-  .requiredOption('--project <name>', 'the project name (required)')
+  .option('--project <name>', 'the project name (required)')
   .option('-s, --scan [paths...]', 'the path to scan, multiple paths separated by space', ['.'])
   .option('-f, --format [formats...]', 'the output format, multiple formats separated by space (XML, HTML, CSV, JSON, JUNIT, ALL)', ['HTML', 'JSON'])
   .option('-o, --out <path>', 'the folder to write reports to', './dependency-check-reports')
