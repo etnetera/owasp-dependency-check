@@ -12,6 +12,9 @@
   "bin": {
     "owasp-dependency-check": "index.js"
   },
+  "scripts": {
+    "test": "node index.js --project \"ProjectTest\" --scan \"package-lock.json\" --out \"out\" --format \"HTML\" --format \"XML\""
+  },
   "author": "ivan.centes@etnetera.cz",
   "license": "MIT",
   "dependencies": {
@@ -20,5 +23,8 @@
     "extract-zip": "^2.0.1",
     "node-fetch": "^2.6.1",
     "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0"
   }
 }
