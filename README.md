@@ -1,5 +1,7 @@
 # owasp-dependency-check
 
+> ⚠️ Requires **Node.js** version 14 or greater.
+
 Node.js wrapper for the [OWASP depencency-check CLI tool](https://jeremylong.github.io/DependencyCheck/dependency-check-cli/index.html).
 
 ```
