@@ -1,6 +1,6 @@
 {
   "name": "owasp-dependency-check",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "A Node.js wrapper for the CLI version of OWASP dependency-check tool.",
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
     "node-fetch": "^2.6.7",
     "nodejs-file-downloader": "^4.9.3",
     "rimraf": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
