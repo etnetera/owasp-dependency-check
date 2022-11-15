@@ -28,7 +28,7 @@ You can specify any options which the [OWASP depencency-check CLI tool](https://
 ```
 "scripts": {
   ...
-  "owasp": "owasp-dependency-check --project \"YOUR PROJECT NAME\" -f HTML JSON"
+  "owasp": "owasp-dependency-check --project \"YOUR PROJECT NAME\" -f HTML -f JSON"
 }
 ```
 
