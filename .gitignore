@@ -1,4 +1,5 @@
 dependency-check-bin
 dependency-check-reports
+dependency-check.log
 node_modules
 out
