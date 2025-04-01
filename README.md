@@ -1,5 +1,9 @@
 # owasp-dependency-check
 
+## ⚠️⚠️ Looking for a maintainer ⚠️⚠️
+
+**We will no longer maintain this package and we are looking for somebody to take over. If you want to continue developing this package, please reach out to me.**
+
 > ⚠️ Requires **Node.js** version 14 or greater.
 
 Node.js wrapper for the [OWASP depencency-check CLI tool](https://jeremylong.github.io/DependencyCheck/dependency-check-cli/index.html).
