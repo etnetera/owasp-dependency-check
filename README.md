@@ -8,7 +8,7 @@
 
 > ⚠️ Requires **Node.js** version 14 or greater.
 
-Node.js wrapper for the [OWASP depencency-check CLI tool](https://jeremylong.github.io/DependencyCheck/dependency-check-cli/index.html).
+Node.js wrapper for the [OWASP depencency-check CLI tool](https://dependency-check.github.io/DependencyCheck/).
 
 ```
 npm install -D owasp-dependency-check
@@ -29,7 +29,7 @@ The easiest way is to add a new NPM script to your `package.json`, for example:
 
 ### Owasp Dependency Core options
 
-You can specify any options which the [OWASP depencency-check CLI tool](https://jeremylong.github.io/DependencyCheck/dependency-check-cli/index.html) provides. For example, to generate a HTML and JSON report, use:
+You can specify any options which the [OWASP depencency-check CLI tool](https://dependency-check.github.io/DependencyCheck/) provides. For example, to generate a HTML and JSON report, use:
 
 ```
 "scripts": {
