@@ -1,8 +1,8 @@
 # owasp-dependency-check
 
-## ⚠️⚠️ Looking for a maintainer ⚠️⚠️
+## ⚠️⚠️ No longer maintained ⚠️⚠️
 
-**We will no longer maintain this package and we are looking for somebody to take over. If you want to continue developing this package, please reach out to me.**
+**This package is no longer maintained. The ownership was transfered to [atwupack](https://github.com/atwupack/owasp-dependency-check).**
 
 ---
 
